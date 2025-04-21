@@ -5,4 +5,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Print Time
-        run: import datetime; now = datetime.datetime.now(); print(now.time())
+        run: echo "All fine"
