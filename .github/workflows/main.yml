@@ -3,6 +3,6 @@ on: workflow-despatch
   jobs:
     first-job:
       runs-on: ubuntu-latest
-        steps:
-          -name: Print Time
-          -run: print(now.time())
+      steps:
+        -name: Print Time
+        -run: print(now.time())
